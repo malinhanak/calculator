@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link href="index.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="calculator">
+      <article class="top-row">
+        <section class="top-row__options">
+          <div class="top-row__option --red"></div>
+          <div class="top-row__option --orange"></div>
+          <div class="top-row__option --green --mr-0"></div>
+        </section>
+        <h5 class="top-row__title">Calculator</h5>
+      </article>
+      <button data-all-clear class="button__control --ac --bt-0">AC</button>
+      <button data-delete class="button__control --del --bt-0 --bl-0">
+        DEL
+      </button>
+      <button
+        data-operand
+        class="button__control --divided --bt-0 --bl-0 --br-0"
+      >
+        ÷
+      </button>
+      <button
+        data-operand
+        class="button__control --multiply --bt-0 --bl-0 --br-0"
+      >
+        *
+      </button>
+      <button
+        data-operand
+        class="button__control --subtract --bt-0 --bl-0 --br-0"
+      >
+        -
+      </button>
+      <button
+        data-operand
+        class="button__control --add --bt-0 --bl-0 --bb-0 --br-0"
+      >
+        +
+      </button>
+      <article class="calculator__display">
+        <div data-previous class="--previous"></div>
+        <div data-current class="--current"></div>
+      </article>
+      <button data-number class="button__numerical --one --bt-0">1</button>
+      <button data-number class="button__numerical --two --bt-0 --bl-0">
+        2
+      </button>
+      <button data-number class="button__numerical --three --bt-0 --bl-0">
+        3
+      </button>
+      <button data-number class="button__numerical --four --bt-0">4</button>
+      <button data-number class="button__numerical --five --bt-0 --bl-0">
+        5
+      </button>
+      <button data-number class="button__numerical --six --bt-0 --bl-0">
+        6
+      </button>
+      <button data-number class="button__numerical --seven --bt-0 --bb-0">
+        7
+      </button>
+      <button
+        data-number
+        class="button__numerical --eight --bt-0 --bl-0 --bb-0"
+      >
+        8
+      </button>
+      <button data-number class="button__numerical --nine --bt-0 --bb-0 --bl-0">
+        9
+      </button>
+      <button data-number class="button__numerical --decimal">.</button>
+      <button data-number class="button__numerical --zero --bl-0">0</button>
+      <button data-equal class="button__control --equal --bl-0">=</button>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
